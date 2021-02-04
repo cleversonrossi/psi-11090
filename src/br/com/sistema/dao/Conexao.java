@@ -16,7 +16,7 @@ public class Conexao {
 		if(conn == null || conn.isClosed()){
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				String url = "jdbc:mysql://localhost:3306/sistema?user=root&password=admin";
+				String url = "jdbc:mysql://localhost:3306/pedido?user=root&password=admin";
 				conn = DriverManager.getConnection(url);
 			} catch (SQLException e) {
 				e.printStackTrace();

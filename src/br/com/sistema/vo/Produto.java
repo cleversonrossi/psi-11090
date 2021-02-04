@@ -5,7 +5,6 @@ public class Produto {
 	private Item item = new Item();
 	
 	private Integer codigoProduto;
-	
 	private String nome;
 	private String descricao;
 	private String categoria;
